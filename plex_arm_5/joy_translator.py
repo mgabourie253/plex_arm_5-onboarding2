@@ -5,7 +5,7 @@ from geometry_msgs.msg import TwistStamped
 from sensor_msgs.msg import Joy
 
 
-# Placeholder topic_name
+# Publishing to servo_node/delta_twist_cmds?
 # Finished otherwise
 class JoyTranslator(Node):
     def __init__(self):
@@ -17,9 +17,8 @@ class JoyTranslator(Node):
             10)
         self.subscription  # Avoid non-existant variable errors
 
-        self.publisher_ = self.create_publisher(TwistStamped, 'topic_name', 10)
+        self.publisher_ = self.create_publisher(TwistStamped, 'servo_node/delta_twist_cmds', 10)
 
-    # Use variable as topic_name to publish to so can include in get_logger() Published to topic_name?
     # Reference frame called 'base_link'? Found in plex_arm_5.urdf
     # get_logger formatting is yuck, Published output missing 
         # (if msg_out timestamp is different than msg_in timestamp then should be included)
