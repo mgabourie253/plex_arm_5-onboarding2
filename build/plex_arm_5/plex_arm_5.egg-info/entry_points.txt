@@ -1,0 +1,3 @@
+[console_scripts]
+joy_translator = plex_arm_5.joy_translator:main
+

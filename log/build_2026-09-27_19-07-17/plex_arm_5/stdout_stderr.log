@@ -1,0 +1,58 @@
+running develop
+Removing /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex-arm-5.egg-link (link to .)
+running egg_info
+writing build/plex_arm_5/plex_arm_5.egg-info/PKG-INFO
+writing dependency_links to build/plex_arm_5/plex_arm_5.egg-info/dependency_links.txt
+writing entry points to build/plex_arm_5/plex_arm_5.egg-info/entry_points.txt
+writing requirements to build/plex_arm_5/plex_arm_5.egg-info/requires.txt
+writing top-level names to build/plex_arm_5/plex_arm_5.egg-info/top_level.txt
+reading manifest file 'build/plex_arm_5/plex_arm_5.egg-info/SOURCES.txt'
+writing manifest file 'build/plex_arm_5/plex_arm_5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build
+creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib
+creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+copying plex_arm_5/joy_translator.py -> /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+copying plex_arm_5/__init__.py -> /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+running install
+running install_lib
+creating /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+copying /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5/joy_translator.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+copying /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5/__init__.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+byte-compiling /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5/joy_translator.py to joy_translator.cpython-310.pyc
+byte-compiling /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/plex_arm_5 -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/ament_index/resource_index/packages
+copying launch/trial.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+copying launch/bringup.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+copying launch/move_group.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+copying config/joint_names_plex_arm_5.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/servo_params.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/plex_arm_5.ros2_control.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/initial_positions.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/plex_arm_5.urdf.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/pilz_cartesian_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/servo_kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/moveit.rviz -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/ros2_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/plex_arm_5.srdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/joint_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying config/moveit_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+copying urdf/plex_arm_5.urdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+copying urdf/plex_arm_5.csv -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+copying urdf/plex_arm_5.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+copying meshes/EE_assembly.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/link_6.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/link_2.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/link_3.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/link_5.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/base_link.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying meshes/link_4.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+copying package.xml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5
+running install_egg_info
+Copying build/plex_arm_5/plex_arm_5.egg-info to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_translator script to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/plex_arm_5
+writing list of installed files to '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/install.log'

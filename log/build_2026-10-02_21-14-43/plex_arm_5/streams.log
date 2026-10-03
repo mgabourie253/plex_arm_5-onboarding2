@@ -1,0 +1,45 @@
+[0.565s] Invoking command in '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build --no-deps symlink_data --force
+[0.762s] running develop
+[0.842s] running egg_info
+[0.842s] writing plex_arm_5.egg-info/PKG-INFO
+[0.842s] writing dependency_links to plex_arm_5.egg-info/dependency_links.txt
+[0.842s] writing entry points to plex_arm_5.egg-info/entry_points.txt
+[0.842s] writing requirements to plex_arm_5.egg-info/requires.txt
+[0.842s] writing top-level names to plex_arm_5.egg-info/top_level.txt
+[0.843s] reading manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+[0.844s] writing manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+[0.845s] running build_ext
+[0.845s] Creating /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex-arm-5.egg-link (link to .)
+[0.845s] Installing joy_translator script to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/plex_arm_5
+[0.845s] 
+[0.845s] Installed /root/ros2_ws/src/plex_arm_5/build/plex_arm_5
+[0.846s] running symlink_data
+[0.846s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/resource/plex_arm_5 -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/ament_index/resource_index/packages
+[0.846s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/trial.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/bringup.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/move_group.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/joint_names_plex_arm_5.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/servo_params.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.ros2_control.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.847s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/initial_positions.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.urdf.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/pilz_cartesian_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/servo_kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/moveit.rviz -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/ros2_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.srdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/joint_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.848s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/moveit_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[0.849s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.urdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[0.849s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.csv -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[0.849s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[0.849s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/EE_assembly.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.849s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_6.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.850s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_2.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.850s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_3.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.850s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_5.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.850s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/base_link.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.851s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_4.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[0.851s] symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/package.xml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5
+[0.869s] Invoked command in '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5' returned '0': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build --no-deps symlink_data --force

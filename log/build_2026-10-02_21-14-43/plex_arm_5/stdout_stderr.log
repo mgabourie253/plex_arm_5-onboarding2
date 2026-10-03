@@ -1,0 +1,43 @@
+running develop
+running egg_info
+writing plex_arm_5.egg-info/PKG-INFO
+writing dependency_links to plex_arm_5.egg-info/dependency_links.txt
+writing entry points to plex_arm_5.egg-info/entry_points.txt
+writing requirements to plex_arm_5.egg-info/requires.txt
+writing top-level names to plex_arm_5.egg-info/top_level.txt
+reading manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+writing manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex-arm-5.egg-link (link to .)
+Installing joy_translator script to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/plex_arm_5
+
+Installed /root/ros2_ws/src/plex_arm_5/build/plex_arm_5
+running symlink_data
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/resource/plex_arm_5 -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/ament_index/resource_index/packages
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/trial.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/bringup.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/launch/move_group.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/joint_names_plex_arm_5.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/servo_params.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.ros2_control.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/initial_positions.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.urdf.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/pilz_cartesian_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/servo_kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/moveit.rviz -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/ros2_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/plex_arm_5.srdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/joint_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/config/moveit_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.urdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.csv -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/urdf/plex_arm_5.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/EE_assembly.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_6.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_2.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_3.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_5.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/base_link.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/meshes/link_4.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+symbolically linking /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/package.xml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5

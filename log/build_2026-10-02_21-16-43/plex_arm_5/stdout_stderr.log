@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing plex_arm_5.egg-info/PKG-INFO
+writing dependency_links to plex_arm_5.egg-info/dependency_links.txt
+writing entry points to plex_arm_5.egg-info/entry_points.txt
+writing requirements to plex_arm_5.egg-info/requires.txt
+writing top-level names to plex_arm_5.egg-info/top_level.txt
+reading manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+writing manifest file 'plex_arm_5.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex-arm-5.egg-link (link to .)
+Installing joy_translator script to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/plex_arm_5
+
+Installed /root/ros2_ws/src/plex_arm_5/build/plex_arm_5
+running symlink_data

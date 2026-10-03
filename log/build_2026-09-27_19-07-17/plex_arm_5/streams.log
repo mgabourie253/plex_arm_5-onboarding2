@@ -1,0 +1,62 @@
+[1.044s] Invoking command in '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build
+[1.456s] running develop
+[1.669s] Removing /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex-arm-5.egg-link (link to .)
+[1.709s] Invoked command in '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5' returned '0': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build
+[1.714s] Invoking command in '/root/ros2_ws/src/plex_arm_5': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/plex_arm_5 build --build-base /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build install --record /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/install.log --install-scripts $base/lib/plex_arm_5 --single-version-externally-managed install_data --force
+[2.116s] running egg_info
+[2.117s] writing build/plex_arm_5/plex_arm_5.egg-info/PKG-INFO
+[2.118s] writing dependency_links to build/plex_arm_5/plex_arm_5.egg-info/dependency_links.txt
+[2.118s] writing entry points to build/plex_arm_5/plex_arm_5.egg-info/entry_points.txt
+[2.118s] writing requirements to build/plex_arm_5/plex_arm_5.egg-info/requires.txt
+[2.118s] writing top-level names to build/plex_arm_5/plex_arm_5.egg-info/top_level.txt
+[2.121s] reading manifest file 'build/plex_arm_5/plex_arm_5.egg-info/SOURCES.txt'
+[2.122s] writing manifest file 'build/plex_arm_5/plex_arm_5.egg-info/SOURCES.txt'
+[2.123s] running build
+[2.123s] running build_py
+[2.123s] creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build
+[2.123s] creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib
+[2.124s] creating /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+[2.124s] copying plex_arm_5/joy_translator.py -> /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+[2.124s] copying plex_arm_5/__init__.py -> /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5
+[2.124s] running install
+[2.125s] running install_lib
+[2.126s] creating /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+[2.127s] copying /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5/joy_translator.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+[2.127s] copying /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build/lib/plex_arm_5/__init__.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5
+[2.128s] byte-compiling /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5/joy_translator.py to joy_translator.cpython-310.pyc
+[2.129s] byte-compiling /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5/__init__.py to __init__.cpython-310.pyc
+[2.129s] running install_data
+[2.130s] copying resource/plex_arm_5 -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/ament_index/resource_index/packages
+[2.130s] copying launch/trial.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[2.130s] copying launch/bringup.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[2.131s] copying launch/move_group.launch.py -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/launch
+[2.131s] copying config/joint_names_plex_arm_5.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.132s] copying config/kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.132s] copying config/servo_params.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.133s] copying config/plex_arm_5.ros2_control.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.134s] copying config/initial_positions.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.134s] copying config/plex_arm_5.urdf.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.135s] copying config/pilz_cartesian_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.135s] copying config/servo_kinematics.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.136s] copying config/moveit.rviz -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.137s] copying config/ros2_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.137s] copying config/plex_arm_5.srdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.138s] copying config/joint_limits.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.139s] copying config/moveit_controllers.yaml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/config
+[2.139s] copying urdf/plex_arm_5.urdf -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[2.140s] copying urdf/plex_arm_5.csv -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[2.140s] copying urdf/plex_arm_5.xacro -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/urdf
+[2.141s] copying meshes/EE_assembly.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.171s] copying meshes/link_6.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.175s] copying meshes/link_2.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.188s] copying meshes/link_3.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.200s] copying meshes/link_5.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.206s] copying meshes/base_link.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.232s] copying meshes/link_4.STL -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5/meshes
+[2.249s] copying package.xml -> /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/share/plex_arm_5
+[2.249s] running install_egg_info
+[2.253s] Copying build/plex_arm_5/plex_arm_5.egg-info to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5-0.0.0-py3.10.egg-info
+[2.255s] running install_scripts
+[2.293s] Installing joy_translator script to /root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/plex_arm_5
+[2.294s] writing list of installed files to '/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/install.log'
+[2.330s] Invoked command in '/root/ros2_ws/src/plex_arm_5' returned '0': PYTHONPATH=/root/ros2_ws/src/plex_arm_5/build/plex_arm_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/plex_arm_5 build --build-base /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/build install --record /root/ros2_ws/src/plex_arm_5/build/plex_arm_5/install.log --install-scripts $base/lib/plex_arm_5 --single-version-externally-managed install_data --force

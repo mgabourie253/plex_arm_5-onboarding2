@@ -1,0 +1,5 @@
+  File "/root/ros2_ws/src/plex_arm_5/install/plex_arm_5/lib/python3.10/site-packages/plex_arm_5/joy_translator.py", line 1
+    def main()
+              ^
+SyntaxError: expected ':'
+
